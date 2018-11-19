@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.me.kafka</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/achambers/confluent-tools/confluent-5.0.0/bin/kafka-server-start</string>
+        <string>/Users/achambers/confluent-tools/confluent-5.0.0/etc/kafka/server.properties</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/Users/achambers/logs/kafka-broker.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/achambers/logs/kafka-broker.log</string>
+</dict>
+</plist>

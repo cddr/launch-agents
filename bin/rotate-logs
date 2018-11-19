@@ -1,0 +1,5 @@
+#!/bin/sh
+
+newsyslog -f /etc/newsyslog.d/andy.launchd.agents.conf \
+  -CC -r -n -vv \
+	|terminal-notifier -title Logs Rotated

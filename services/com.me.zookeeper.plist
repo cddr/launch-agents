@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.me.zookeeper</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/achambers/Projects/confluent/confluent-5.0/confluent-5.0.0/bin/zookeeper-server-start</string>
+      <string>/Users/achambers/Projects/confluent/confluent-5.0/confluent-5.0.0/etc/kafka/zookeeper.properties</string>
+    </array>
+    <key>StandardErrorPath</key>
+    <string>/Users/achambers/logs/zookeeper.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/achambers/logs/zookeeper.log</string>
+</dict>
+</plist>
